@@ -1,7 +1,32 @@
-# Tauri + React + Typescript
+# Questlet 📟
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Questlet was inspired by the frustration of sticky-note task lists that either clutter your workspace when pinned on top or disappear behind multiple open windows. It was designed as a simple desktop-level task widget that stays out of the way.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- Desktop-level widget with no taskbar presence
+- Add, complete, and delete tasks
+- Automatically saves tasks locally
+- Carries unfinished tasks to the next day
+- Daily progress tracking
+- Scrollable task list
+- Draggable anywhere on the desktop
+- Compact pixel-art interface
+
+## Built With
+
+- Tauri
+- React
+- TypeScript
+- Rust
+- CSS
+
+## Download
+
+[Download Questlet for Windows](./releases/desktop-todo.exe)
+
+## Run Locally
+
+```bash
+npm install
+npm run tauri dev
