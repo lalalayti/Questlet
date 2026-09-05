@@ -25,6 +25,10 @@ Questlet was inspired by the frustration of sticky-note task lists that either c
 
 [Download Questlet for Windows](./releases/desktop-todo.exe)
 
+## Exiting Questlet
+
+Since Questlet has no traditional window controls or taskbar presence, press **Alt + F4** while the widget is focused to exit. Alternatively, you can end the Questlet process through **Task Manager**.
+
 ## Run Locally
 
 ```bash
